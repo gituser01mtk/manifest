@@ -17,6 +17,14 @@
   fetch="https://gitlab.com/PixelExperience"
   revision="eleven" />
 
+  <remote name="fluid"
+  fetch="https://github.com/project-fluid"
+  revision="fluid-11" />
+ 
+  <remote name="fluid-gitlab"
+  fetch="https://gitlab.com/project-fluid"
+  revision="fluid-11" />
+
   <remote name="pixel-gitlab-hosted"
   fetch="https://gitlab.pixelexperience.org/android"
   revision="eleven" />
@@ -42,4 +50,6 @@
   <project path="packages/apps/Lawnchair" name="android_packages_apps_Lawnchair" remote="cresent" />
   <project path="frameworks/base" name="project-fluid/frameworks_base" remote="github" revision="fluid-11" />
   <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="github" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_faceunlockservice" remote="fluid-gitlab" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="fluid-gitlab" />
 </manifest>
